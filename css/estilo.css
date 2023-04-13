@@ -23,7 +23,7 @@
  }
 
  .navbar-nav .nav-link {
-  color: #fff;
+  color: white;
   font-size: 16px;
   text-transform: uppercase;
   padding: 10px 15px;
@@ -93,12 +93,84 @@ footer .footer-pages a:hover {
   color: #EF0C0C;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1280px) {
   footer .container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+}
+
+/* Estilos para el Carrusel */
+
+#myCarousel {
+  margin: 0;
+  margin-bottom: 20px;
+}
+.carousel-item img {
+  object-fit: cover;
+}
+.carousel-indicators button {
+  background-color: #EF0C0C;
+}
+.carousel-control-prev{
+  background-color: #EF0C0C;
+  height: 50px;
+  width: 50px;
+  opacity: 0.5;
+  top: 50%;
+}
+.carousel-control-next {
+  background-color: #EF0C0C;
+  height: 50px;
+  width: 50px;
+  opacity: 0.5;
+  top: 50%;
+}
+@media (max-width: 1280px) {
+
+  .carousel-item img {
+    max-height: 600px;
+    width: 100%;
+    object-fit: contain;
+  }
+  .carousel-control-prev{
+    background-color: #EF0C0C;
+    height: 30px;
+    width: 30px;
+    opacity: 0.5;
+    top: 50%;
+  }
+  .carousel-control-next {
+    background-color: #EF0C0C;
+    height: 30px;
+    width: 30px;
+    opacity: 0.5;
+    top: 50%;
+  }
+}
+@media (max-width: 768px) {
+  
+  .carousel-item img {
+    max-height: 400px;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .carousel-control-prev{
+    background-color: #EF0C0C;
+    height: 20px;
+    width: 20px;
+    opacity: 0.5;
+    top: 50%;
+  }
+  .carousel-control-next {
+    background-color: #EF0C0C;
+    height: 20px;
+    width: 20px;
+    opacity: 0.5;
+    top: 50%;
   }
 }
 
@@ -140,7 +212,7 @@ footer .footer-pages a:hover {
   padding: 0;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1280px) {
   .rectangulo {
     flex-direction: column;
     text-align: center;
@@ -162,77 +234,7 @@ footer .footer-pages a:hover {
 }
 
 
-/* Estilos para el Carrusel */
-
-#myCarousel {
-  margin: 0;
-  margin-bottom: 20px;
-}
-.carousel-item img {
-  object-fit: cover;
-}
-.carousel-indicators button {
-  background-color: #EF0C0C;
-}
-.carousel-control-prev{
-  background-color: #EF0C0C;
-  height: 50px;
-  width: 50px;
-  opacity: 0.5;
-  top: 50%;
-}
-.carousel-control-next {
-  background-color: #EF0C0C;
-  height: 50px;
-  width: 50px;
-  opacity: 0.5;
-  top: 50%;
-}
-@media (max-width: 991.98px) {
-  .carousel-item img {
-    max-height: 500px;
-    width: 100%;
-    object-fit: contain;
-  }
-  .carousel-control-prev{
-    background-color: #EF0C0C;
-    height: 30px;
-    width: 30px;
-    opacity: 0.5;
-    top: 50%;
-  }
-  .carousel-control-next {
-    background-color: #EF0C0C;
-    height: 30px;
-    width: 30px;
-    opacity: 0.5;
-    top: 50%;
-  }
-}
-@media (max-width: 767.98px) {
-  .carousel-item img {
-    max-height: 400px;
-    width: 100%;
-    object-fit: contain;
-  }
-
-  .carousel-control-prev{
-    background-color: #EF0C0C;
-    height: 20px;
-    width: 20px;
-    opacity: 0.5;
-    top: 50%;
-  }
-  .carousel-control-next {
-    background-color: #EF0C0C;
-    height: 20px;
-    width: 20px;
-    opacity: 0.5;
-    top: 50%;
-  }
-}
-
-/* Estilos para cuadrado de texto */
+/* Estilos para cuadrado de texto (página misión-visión) */
 .cuadrado {
   background-color: #f1f1f1;
   border: 3px solid #EF0C0C ;
