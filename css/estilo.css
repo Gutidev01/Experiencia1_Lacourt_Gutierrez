@@ -1,4 +1,4 @@
-  /* Estilo para la página */
+ /* Estilo para la página */
  * {
   box-sizing: border-box;
   }
@@ -231,6 +231,18 @@ footer .footer-pages a:hover {
   .rectangulo_imagen {
     order: -1;
   }
+}
+.titulo {
+  height: 40px;
+  background-color: #EF0C0C;
+  width: 100%;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
 
 
